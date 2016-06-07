@@ -1,32 +1,30 @@
-<section class="container-fluid padding-6 <?php echo $vars['class'] ?>">
 <?php
-			//debug($vars);
+		//$image = (!is_default($vars['background']))?$vars['background']:get_field('default_image','option');
 
-			/*=============================================
-			= Card (Class,Image,Title,Content)
-			= @components
-				+ molecule/card
-			=============================================*/
-			get_component([ 'template' => 'molecule/card',
-							'remove_tags' =>  ['img'],
-											'vars' => [
-														"class" => 'col-md-6 card para',
-														"title" => $vars["title"],
-														"subtitle" => $vars["subtitle"],
-														"content" => apply_filters('the_content',  $vars["content"]),
-															"button" => get_component([
-																'template' => 'atom/link',
-																'return_string' => true,
-																'vars' => [
-																			"class" => 'btn text-uppercase pull-left',
-																			"text" => $vars['button'][0]['text'],
-																			"url" => $vars['button'][0]['link_location'],
-																			]
-																])
-														]
-											 ]);
+	//debug($vars);
 
-			
-?>
-		<img class="col-md-6 rounded" src="<?php echo $vars['image'] ?>" alt="">
+ ?>
+<section class="container-fluid paragraph-overlay <?php echo $vars['class']?>" style="background-image: url('<?php echo $vars['image'];?>');">
+	<div class="col-md-6 pull-right">
+		<div class="box">
+		<?php 
+		unset($element_file);
+		unset($element_vars);
+		for ($i=0; $i < sizeof($vars['element']); $i++) { 
+			$element_file = $vars['element'][$i]['acf_fc_layout']; //get file
+			unset($vars['element'][$i]['acf_fc_layout']); // remove file from array leveling only vars
+			$element_vars = $vars['element'][0];
+			get_component([
+		 		'template' => 'molecule/'.$element_file,
+		 		'vars' => $element_vars
+				]);
+
+				unset($element_file);
+				unset($element_vars);
+		}
+				unset($i);
+		
+		 ?>
+		</div>
+	</div>
 </section>
