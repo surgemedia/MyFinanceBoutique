@@ -4,6 +4,9 @@
 */
 ?>
 <?php
+$page_heading = get_field('layout');
+debug($page_heading);
+
 $layout_builder = get_field('layout');
 debug($layout_builder);
 foreach ($layout_builder as $key => $value) {
@@ -16,4 +19,7 @@ foreach ($layout_builder as $key => $value) {
 			]);
 	unset($section_file);
 }
+unset($page_heading);
+unset($layout_builder);
+
 ?>

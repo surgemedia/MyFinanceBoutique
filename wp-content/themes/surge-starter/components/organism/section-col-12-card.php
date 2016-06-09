@@ -1,4 +1,4 @@
-<section class="container-fluid padding-6 <?php echo $vars['class'] ?>">
+<section class="container padding-6 <?php echo $vars['class'] ?>">
 <?php
 			//debug($vars);
 
@@ -28,5 +28,7 @@
 
 			
 ?>
-		<img class="col-md-6 rounded" src="<?php echo $vars['image'] ?>" alt="">
+<div class="col-md-6 text-center">
+		<img class="img-responsive rounded" src="<?php echo $vars['image'] ?>" alt="">
+		</div>
 </section>

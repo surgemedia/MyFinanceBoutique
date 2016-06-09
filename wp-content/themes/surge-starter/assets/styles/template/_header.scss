@@ -1,0 +1,32 @@
+.banner {
+	position: absolute;
+	z-index:999;
+	width:100%;
+//line up logo
+.collapse.navbar-collapse {
+	    margin-right: -15px;
+    margin-left: -15px;
+}
+#logo {
+	margin-top:2em;
+	margin-bottom:3em;
+}
+
+.navbar-nav {
+	width:100%;
+	background:$blue;
+	padding-right:4em;
+	padding-left:4em;
+	text-align:center;
+
+	li {
+		display: inline-block;
+		float:none !important;
+		a {
+			color:#fff;
+			@extend .p6;
+			font-size:1.7em;
+		}
+	}
+}
+}

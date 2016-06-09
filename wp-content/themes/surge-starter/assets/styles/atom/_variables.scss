@@ -5,19 +5,23 @@ $icon-font-path:        "../fonts/";
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
-// Colors
-$brand-primary:         #2795B6;
-$teal:					#2795B6;
-$teal-alt: 				#00506B;
-$teal-dark: 			#003E4D;
-$blue: 					#12B5C6;
-$light-blue: 			#86B9BD;
-$yellow: 				#D8D001;
-$red: 					#8b1f2c;
+//Colors
+$color1: #FF4082;
+$color2: #0096A6;
+$color3: #737373;
+$color4: #13181C;
+$color5: #F5F5F5;
+$color6: #C1C6C8;
 
-$yellow-dark: 			#3D4000; 
-$grey: 					#F6F6F6; 
-$gray : $grey;
+$brand-primary:  $color1;
+$pink: $color1;
+$blue: $color2;
+$black: $color4;
+$light-grey: $color5;
+$dark-grey: $color3;
+$grey: $color6;
+
+$gray : $color6;
 
 $primary-font: "Klavika Basic","Helvetica","Arial","sans-serif";
 $secondary-font: "Roboto Slab","Helvetica Neue","Helvetica","Arial","sans-serif";

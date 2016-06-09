@@ -1,4 +1,4 @@
-<section class="container-fluid">
+<section class="container padding-6">
 <?php
 	/*=====================================
 	=            Get Files            =

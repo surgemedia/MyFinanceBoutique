@@ -10,10 +10,13 @@ $sizew = $_GET["w"];
 $crop = $_GET["c"];
 $qual = $_GET["q"];
 $flip = $_GET["f"];
+ print_r($_GET);
 
 $editor = wp_get_image_editor( $image );
 
+if(isset($_GET["h"]) AND isset($_GET["w"]) ){
 $editor->resize( $sizew,$sizew, $crop  );
+}
 
 if(isset($qual)){
 	$editor->set_quality( $qual );

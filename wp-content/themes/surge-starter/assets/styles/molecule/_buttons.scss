@@ -1,0 +1,16 @@
+.btn,
+.gform_button,
+.button {
+	border:1px solid $blue;
+	background: $blue;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius:0px;
+	padding-right:2em;
+	padding-left:2em;
+	font-size:2em;
+}
+.gform_button {
+	font-size:2em;
+}

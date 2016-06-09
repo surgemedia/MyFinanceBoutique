@@ -1,5 +1,5 @@
-<section class="container-fluid paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['image'];?>');">
-	<div class="col-md-6 col-md-offset-3">
+<section class="container-fluid bg-cover padding-6 paragraph-overlay <?php echo $vars['class']?>" style=" background-image: url('<?php echo $vars['image'];?>');">
+	<div class="col-md-4 col-md-offset-4 text-center">
 		<div class="box">
 		<?php 
 		get_component([ 'template' => 'molecule/card',
@@ -15,7 +15,7 @@
 		get_component([ 'template' => 'molecule/form',
 							'remove_tags' =>  ['h2','p'],
 											'vars' => [
-														"class" => 'form',
+														"class" => 'form text-center',
 														"form" => $vars["form"],
 														]
 											 ]);

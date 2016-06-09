@@ -73,8 +73,8 @@
                                     "display": "block",
                                     "sub_fields": [
                                         {
-                                            "key": "field_57563c32414cf",
-                                            "label": "Element",
+                                            "key": "field_575779de187de",
+                                            "label": "Elements",
                                             "name": "",
                                             "type": "tab",
                                             "instructions": "",
@@ -86,7 +86,7 @@
                                                 "id": ""
                                             },
                                             "placement": "top",
-                                            "endpoint": ""
+                                            "endpoint": 0
                                         },
                                         {
                                             "key": "field_57563c32414d0",
@@ -123,7 +123,7 @@
                                             "name": "title",
                                             "type": "text",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -152,7 +152,7 @@
                                             "name": "content",
                                             "type": "wysiwyg",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -178,7 +178,7 @@
                                             "name": "button",
                                             "type": "repeater",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -245,20 +245,20 @@
                                             ]
                                         },
                                         {
-                                            "key": "field_57563c32414d6",
+                                            "key": "field_57577a087fff4",
                                             "label": "Image",
                                             "name": "",
                                             "type": "tab",
                                             "instructions": "",
-                                            "required": 1,
-                                            "conditional_logic": 0,
+                                            "required": "",
+                                            "conditional_logic": "",
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
                                                 "id": ""
                                             },
                                             "placement": "top",
-                                            "endpoint": 1
+                                            "endpoint": 0
                                         },
                                         {
                                             "key": "field_57563c32414d7",
@@ -266,7 +266,7 @@
                                             "name": "image",
                                             "type": "image",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -293,9 +293,9 @@
                                             "mime_types": ""
                                         },
                                         {
-                                            "key": "field_57563c32414d8",
+                                            "key": "field_57577a0f7fff5",
                                             "label": "Options",
-                                            "name": "options",
+                                            "name": "",
                                             "type": "tab",
                                             "instructions": "",
                                             "required": "",
@@ -306,7 +306,7 @@
                                                 "id": ""
                                             },
                                             "placement": "top",
-                                            "endpoint": ""
+                                            "endpoint": 0
                                         },
                                         {
                                             "key": "field_57563c32414d9",
@@ -640,8 +640,8 @@
                                     "display": "block",
                                     "sub_fields": [
                                         {
-                                            "key": "field_57563c32414e8",
-                                            "label": "Element",
+                                            "key": "field_575773eda44b2",
+                                            "label": "Elements",
                                             "name": "",
                                             "type": "tab",
                                             "instructions": "",
@@ -653,16 +653,29 @@
                                                 "id": ""
                                             },
                                             "placement": "top",
-                                            "endpoint": ""
+                                            "endpoint": 0
                                         },
                                         {
                                             "key": "field_57563c32414e9",
-                                            "label": "Slider",
-                                            "name": "slider",
+                                            "label": "Manual Slider",
+                                            "name": "manual_slider",
                                             "type": "repeater",
                                             "instructions": "",
-                                            "required": 1,
-                                            "conditional_logic": 0,
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_57577204232da",
+                                                        "operator": "!=",
+                                                        "value": "Website Items"
+                                                    },
+                                                    {
+                                                        "field": "field_57577204232da",
+                                                        "operator": "==",
+                                                        "value": "Manual"
+                                                    }
+                                                ]
+                                            ],
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -764,9 +777,52 @@
                                             ]
                                         },
                                         {
-                                            "key": "field_57563c32414ed",
+                                            "key": "field_575771d4232d6",
+                                            "label": "Website Items",
+                                            "name": "website_items",
+                                            "type": "relationship",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_57577204232da",
+                                                        "operator": "==",
+                                                        "value": "Website Items"
+                                                    },
+                                                    {
+                                                        "field": "field_57577204232da",
+                                                        "operator": "!=",
+                                                        "value": "Manual"
+                                                    }
+                                                ]
+                                            ],
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "post_type": [
+
+                                            ],
+                                            "taxonomy": [
+
+                                            ],
+                                            "filters": [
+                                                "search",
+                                                "post_type"
+                                            ],
+                                            "elements": [
+                                                "featured_image"
+                                            ],
+                                            "min": "",
+                                            "max": "",
+                                            "return_format": "id"
+                                        },
+                                        {
+                                            "key": "field_575773dfa44b1",
                                             "label": "Options",
-                                            "name": "options",
+                                            "name": "",
                                             "type": "tab",
                                             "instructions": "",
                                             "required": "",
@@ -777,7 +833,30 @@
                                                 "id": ""
                                             },
                                             "placement": "top",
-                                            "endpoint": ""
+                                            "endpoint": 0
+                                        },
+                                        {
+                                            "key": "field_57577204232da",
+                                            "label": "Slide objects",
+                                            "name": "slide_objects",
+                                            "type": "radio",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "choices": {
+                                                "Website Items": "Website Items",
+                                                "Manual": "Manual"
+                                            },
+                                            "allow_null": 0,
+                                            "other_choice": 0,
+                                            "save_other_choice": 0,
+                                            "default_value": "Website Items",
+                                            "layout": "vertical"
                                         },
                                         {
                                             "key": "field_57563c32414ee",
@@ -785,8 +864,8 @@
                                             "name": "hidden_elemenets",
                                             "type": "checkbox",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 1,
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -802,8 +881,8 @@
                                                 "Content",
                                                 "Image"
                                             ],
-                                            "layout": "",
-                                            "toggle": ""
+                                            "layout": "vertical",
+                                            "toggle": 1
                                         }
                                     ],
                                     "min": "",
@@ -2200,7 +2279,7 @@
                                             "name": "subtitle",
                                             "type": "text",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -3186,7 +3265,7 @@
                                             "name": "subtitle",
                                             "type": "text",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -3215,7 +3294,7 @@
                                             "name": "title",
                                             "type": "text",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -3244,7 +3323,7 @@
                                             "name": "content",
                                             "type": "wysiwyg",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -3270,7 +3349,7 @@
                                             "name": "button",
                                             "type": "repeater",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": [
                                                 [
                                                     {
@@ -3358,14 +3437,14 @@
                                             "name": "image",
                                             "type": "image",
                                             "instructions": "",
-                                            "required": 1,
+                                            "required": 0,
                                             "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "return_format": "array",
+                                            "return_format": "url",
                                             "preview_size": "thumbnail",
                                             "library": "all",
                                             "min_width": "",
@@ -3473,6 +3552,27 @@
                                             "key": "field_575651400621e",
                                             "label": "Title",
                                             "name": "title",
+                                            "type": "text",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "placeholder": "",
+                                            "prepend": "",
+                                            "append": "",
+                                            "maxlength": "",
+                                            "readonly": 0,
+                                            "disabled": 0
+                                        },
+                                        {
+                                            "key": "field_5758ca922bcaa",
+                                            "label": "Subtitle",
+                                            "name": "subtile",
                                             "type": "text",
                                             "instructions": "",
                                             "required": 0,
@@ -4197,7 +4297,7 @@
                             "name": "content",
                             "type": "wysiwyg",
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "conditional_logic": [
                                 [
                                     {
@@ -4223,7 +4323,7 @@
                             "name": "button",
                             "type": "repeater",
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "conditional_logic": [
                                 [
                                     {
@@ -4311,7 +4411,7 @@
                             "name": "image",
                             "type": "image",
                             "instructions": "",
-                            "required": 1,
+                            "required": 0,
                             "conditional_logic": [
                                 [
                                     {
@@ -4605,5 +4705,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1465281393
+    "modified": 1465437152
 }
