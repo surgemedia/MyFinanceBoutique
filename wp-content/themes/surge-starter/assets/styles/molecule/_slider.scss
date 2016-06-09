@@ -1,0 +1,50 @@
+.owl-stage-outer {
+	.item  {
+		    padding: 0em 4em;
+		    p {
+		    	margin-bottom: 0.5em;
+		    }
+		 span {
+		 	&:before {
+		 		position:absolute;
+		 		content: '';
+		 		height:2px;
+		 		background:$dark-grey;
+		 		top:0px;
+		 		left:0px;
+		 		right:0px;
+		 		width:20%;
+		 		margin: 0 auto;
+		 	}
+		    font-size: 3em;
+		    font-weight: bold;
+		    margin-bottom: 1em;
+		    padding-top: 0.5em;
+		}
+	}
+}
+.owl-nav {
+	position: absolute;
+    top: 3em;
+    width: 96%;
+    font-size: 3em;
+    left: 10px;
+    opacity: 0.5;
+    color: $dark-grey;
+	div {
+		@extend .icon-font;
+		&.owl-next {
+			@extend .icon-arrow-right;
+			float:right;
+		}
+		&.owl-prev {
+			@extend .icon-arrow-left;
+		}
+	}
+}
+
+.jumbotron .owl-nav {
+    font-size: 8em;
+    top: 5em;
+    opacity: 1;
+}

@@ -1,5 +1,5 @@
 <?php //debug($vars); ?>
-  <div class="owl-carousel">
+  <div class="owl-carousel slider">
 
   <?php 
 
@@ -39,7 +39,7 @@
         // Restore original Post Data
         wp_reset_postdata();
 
-  } elseif($vars['slide_objects'] == 'manual_slider') {
+  } elseif($vars['slide_objects'] == 'Manual Slider') {
       for ($vars['i']=0; $vars['i'] < sizeof($vars['manual_slider']); $vars['i']++) {
 
                get_component([

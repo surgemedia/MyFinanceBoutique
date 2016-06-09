@@ -153,7 +153,8 @@
     font-weight: normal;
     font-style: normal;
 }
-[class*='surge-icon-']:before{
+.icon-font,
+[class*='icon-']:before{
 	display: inline-block;
    font-family: 'Glyphter';
    font-style: normal;
@@ -162,10 +163,7 @@
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale
 }
-.surge-icon-mail:before{content:'\0041';}
-.surge-icon-phone:before{content:'\0042';}
-.surge-icon-quotation_mark_start:before{content:'\0043';}
-.surge-icon-quotation_mark_end:before{content:'\0044';}
-.surge-icon-map:before{content:'\0045';}
-.surge-icon-at:before{content:'\0046';}
-.surge-icon-document:before{content:'\0047';}
+.icon-arrow-left:before{content:'\0041';}
+.icon-arrow-right:before{content:'\0042';}
+.icon-icon-phone:before{content:'\0043';}
+.icon-icon-social-FB:before{content:'\0044';}
