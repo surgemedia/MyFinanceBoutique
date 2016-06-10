@@ -1,14 +1,6 @@
 <?php
 
-// exit if accessed directly
-if( ! defined( 'ABSPATH' ) ) exit;
-
-
-// check if class already exists
-if( !class_exists('acf_field_FIELD_NAME') ) :
-
-
-class acf_field_FIELD_NAME extends acf_field {
+class acf_field_column extends acf_field {
 	
 	
 	/*
@@ -24,27 +16,27 @@ class acf_field_FIELD_NAME extends acf_field {
 	*  @return	n/a
 	*/
 	
-	function __construct( $settings ) {
+	function __construct() {
 		
 		/*
 		*  name (string) Single word, no spaces. Underscores allowed
 		*/
 		
-		$this->name = 'FIELD_NAME';
+		$this->name = 'column';
 		
 		
 		/*
 		*  label (string) Multiple words, can include spaces, visible when selecting a field type
 		*/
 		
-		$this->label = __('FIELD_LABEL', 'acf-FIELD_NAME');
+		$this->label = __('Column', 'acf-column');
 		
 		
 		/*
 		*  category (string) basic | content | choice | relational | jquery | layout | CUSTOM GROUP NAME
 		*/
 		
-		$this->category = 'basic';
+		$this->category = 'layout';
 		
 		
 		/*
@@ -52,7 +44,7 @@ class acf_field_FIELD_NAME extends acf_field {
 		*/
 		
 		$this->defaults = array(
-			'font_size'	=> 14,
+			'column-type' => '1_2'
 		);
 		
 		
@@ -62,17 +54,10 @@ class acf_field_FIELD_NAME extends acf_field {
 		*/
 		
 		$this->l10n = array(
-			'error'	=> __('Error! Please enter a higher value', 'acf-FIELD_NAME'),
+			
 		);
 		
-		
-		/*
-		*  settings (array) Store plugin settings (url, path, version) as a reference for later use with assets
-		*/
-		
-		$this->settings = $settings;
-		
-		
+				
 		// do not delete!
     	parent::__construct();
     	
@@ -105,11 +90,25 @@ class acf_field_FIELD_NAME extends acf_field {
 		*/
 		
 		acf_render_field_setting( $field, array(
-			'label'			=> __('Font Size','acf-FIELD_NAME'),
-			'instructions'	=> __('Customise the input font size','acf-FIELD_NAME'),
-			'type'			=> 'number',
-			'name'			=> 'font_size',
-			'prepend'		=> 'px',
+			'label'			=> __('Column Count','acf-column'),
+			'instructions'	=> __('At the end of the row add a column reset.','acf-column'),
+			'type'			=> 'select',
+			'name'			=> 'column-type',
+			'class'         => 'column-type-select',
+			'choices'       => array (
+				'1_1'		=> __('Reset','acf-column'),
+				'1_2'		=> __('One Half','acf-column'),
+				'1_3'		=> __('One Third','acf-column'),
+				'2_3'		=> __('Two Thirds','acf-column'),
+				'1_4'		=> __('One Quarter','acf-column'),
+				'3_4'		=> __('Three Quarters','acf-column'),
+				'1_5'		=> __('One Fifth','acf-column'),
+				'2_5'		=> __('Two Fifth','acf-column'),
+				'3_5'		=> __('Three Fifth','acf-column'),
+				'4_5'		=> __('Four Fifth','acf-column'),
+				'1_6'		=> __('One Sixth','acf-column'),
+				'1_8'		=> __('One Eighth','acf-column'),
+			)
 		));
 
 	}
@@ -139,17 +138,17 @@ class acf_field_FIELD_NAME extends acf_field {
 		*  This will show what data is available
 		*/
 		
-		echo '<pre>';
-			print_r( $field );
-		echo '</pre>';
+		// echo '<pre>';
+		// 	print_r( $field );
+		// echo '</pre>';
 		
 		
 		/*
 		*  Create a simple text input using the 'font_size' setting.
 		*/
 		
+		echo '<div class="acf-column column-layout-' . $field['column-type'] . '" data-id="' . $field['key'] . '" data-column="' . $field['column-type'] . '">&nbsp;</div>';
 		?>
-		<input type="text" name="<?php echo esc_attr($field['name']) ?>" value="<?php echo esc_attr($field['value']) ?>" style="font-size:<?php echo $field['font_size'] ?>px;" />
 		<?php
 	}
 	
@@ -167,28 +166,23 @@ class acf_field_FIELD_NAME extends acf_field {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-
-	/*
 	
 	function input_admin_enqueue_scripts() {
 		
-		// vars
-		$url = $this->settings['url'];
-		$version = $this->settings['version'];
+		$dir = plugin_dir_url( __FILE__ );
 		
 		
 		// register & include JS
-		wp_register_script( 'acf-input-FIELD_NAME', "{$url}assets/js/input.js", array('acf-input'), $version );
-		wp_enqueue_script('acf-input-FIELD_NAME');
+		wp_register_script( 'acf-input-column', "{$dir}js/input.js" );
+		wp_enqueue_script('acf-input-column');
 		
 		
 		// register & include CSS
-		wp_register_style( 'acf-input-FIELD_NAME', "{$url}assets/css/input.css", array('acf-input'), $version );
-		wp_enqueue_style('acf-input-FIELD_NAME');
+		wp_register_style( 'acf-input-column', "{$dir}css/input.css" ); 
+		wp_enqueue_style('acf-input-column');
+		
 		
 	}
-	
-	*/
 	
 	
 	/*
@@ -443,7 +437,7 @@ class acf_field_FIELD_NAME extends acf_field {
 		// Advanced usage
 		if( $value < $field['custom_minimum_setting'] )
 		{
-			$valid = __('The value is too little!','acf-FIELD_NAME'),
+			$valid = __('The value is too little!','acf-column'),
 		}
 		
 		
@@ -556,11 +550,7 @@ class acf_field_FIELD_NAME extends acf_field {
 }
 
 
-// initialize
-new acf_field_FIELD_NAME( $this->settings );
-
-
-// class_exists check
-endif;
+// create field
+new acf_field_column();
 
 ?>
