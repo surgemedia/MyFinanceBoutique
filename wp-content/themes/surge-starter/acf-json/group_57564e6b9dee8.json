@@ -183,7 +183,7 @@
                                                 [
                                                     {
                                                         "field": "field_57563c32414d9",
-                                                        "operator": "==",
+                                                        "operator": "!=",
                                                         "value": "Button"
                                                     }
                                                 ]
@@ -329,14 +329,10 @@
                                                 "Image": "Image"
                                             },
                                             "default_value": [
-                                                "Subtitle",
-                                                "Title",
-                                                "Content",
-                                                "Button",
-                                                "Image"
+
                                             ],
                                             "layout": "vertical",
-                                            "toggle": 1
+                                            "toggle": 0
                                         }
                                     ],
                                     "min": "",
@@ -365,13 +361,21 @@
                                             "endpoint": ""
                                         },
                                         {
-                                            "key": "field_57563c32414db",
+                                            "key": "field_57591651c893f",
                                             "label": "Title",
                                             "name": "title",
                                             "type": "text",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_57563c32414e1",
+                                                        "operator": "!=",
+                                                        "value": "Title"
+                                                    }
+                                                ]
+                                            ],
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -391,8 +395,16 @@
                                             "name": "content",
                                             "type": "wysiwyg",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_57563c32414e1",
+                                                        "operator": "!=",
+                                                        "value": "Content"
+                                                    }
+                                                ]
+                                            ],
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -401,7 +413,7 @@
                                             "default_value": "",
                                             "tabs": "all",
                                             "toolbar": "full",
-                                            "media_upload": ""
+                                            "media_upload": 1
                                         },
                                         {
                                             "key": "field_57563c32414dd",
@@ -409,15 +421,15 @@
                                             "name": "form",
                                             "type": "gravity_forms_field",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "allow_null": "",
-                                            "allow_multiple": ""
+                                            "allow_null": 1,
+                                            "allow_multiple": 0
                                         },
                                         {
                                             "key": "field_57563c32414de",
@@ -441,16 +453,24 @@
                                             "name": "image",
                                             "type": "image",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_57563c32414e1",
+                                                        "operator": "!=",
+                                                        "value": "Title"
+                                                    }
+                                                ]
+                                            ],
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "return_format": "",
-                                            "preview_size": "thumbnail",
-                                            "library": "",
+                                            "return_format": "url",
+                                            "preview_size": "medium",
+                                            "library": "all",
                                             "min_width": "",
                                             "min_height": "",
                                             "min_size": "",
@@ -481,8 +501,8 @@
                                             "name": "hidden_elemenets",
                                             "type": "checkbox",
                                             "instructions": "",
-                                            "required": "",
-                                            "conditional_logic": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
                                             "wrapper": {
                                                 "width": "",
                                                 "class": "",
@@ -494,12 +514,10 @@
                                                 "Image": "Image"
                                             },
                                             "default_value": [
-                                                "Title",
-                                                "Content",
-                                                "Image"
+
                                             ],
-                                            "layout": "",
-                                            "toggle": ""
+                                            "layout": "vertical",
+                                            "toggle": 0
                                         }
                                     ],
                                     "min": "",
@@ -4705,5 +4723,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1465437152
+    "modified": 1465456396
 }
