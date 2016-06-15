@@ -1,0 +1,464 @@
+0000.000 (0) Opened log file at time: Fri, 10 Jun 2016 05:34:34 +0000 on http://localhost/MyFinanceBoutique
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.16 (Linux surge-iMac 3.19.0-51-generic #58~14.04.1-Ubuntu SMP Fri Feb 26 22:02:58 UTC 2016 x86_64) MySQL: 5.5.44 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.2M | 7.5M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 147330.8 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.068 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.072 (0) Set semaphore last lock (fd) time to 2016-06-10 05:34:34
+0000.076 (0) Semaphore lock (fd) complete
+0000.092 (0) Backup run: resumption=0, nonce=e7ba7615a89e, begun at=1465536874 (0s ago), job type=backup
+0000.102 (0) Scheduling a resumption (1) after 300 seconds (1465537174) in case this run gets aborted
+0000.259 (0) Checking if we have a zip executable available
+0000.266 (0) Testing: /usr/bin/zip
+0000.276 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.282 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.286 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.289 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.294 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.313 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.317 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.333 (0) Working binary zip found: /usr/bin/zip
+0000.339 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.342 (0) Creation of backups of directories: beginning
+0000.368 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.470 (0) Total entities for the zip file: 315 directories, 2297 files (0 skipped as non-modified), 40.4 MB
+0000.480 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.488 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.498 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.506 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.517 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.520 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 2297 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.484 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: size is now: 4.50 MB
+0007.497 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 600 files added (on-disk size: 4635 KB)
+0007.505 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 700 files added (on-disk size: 4635 KB)
+0007.512 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 800 files added (on-disk size: 4635 KB)
+0007.520 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 900 files added (on-disk size: 4635 KB)
+0007.531 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1000 files added (on-disk size: 4635 KB)
+0007.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 2297 files batched, 501 (1002) added so far); re-opening (prior size: 4635 KB)
+0009.598 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: size is now: 6.70 MB
+0009.615 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1100 files added (on-disk size: 6829.9 KB)
+0009.620 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1200 files added (on-disk size: 6829.9 KB)
+0009.625 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1300 files added (on-disk size: 6829.9 KB)
+0009.629 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1400 files added (on-disk size: 6829.9 KB)
+0009.634 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1500 files added (on-disk size: 6829.9 KB)
+0009.637 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.8 MB, 2297 files batched, 501 (1503) added so far); re-opening (prior size: 6829.9 KB)
+0012.139 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: size is now: 11.10 MB
+0012.154 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1600 files added (on-disk size: 11416.3 KB)
+0012.160 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1700 files added (on-disk size: 11416.3 KB)
+0012.164 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1800 files added (on-disk size: 11416.3 KB)
+0012.169 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 1900 files added (on-disk size: 11416.3 KB)
+0012.172 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 2000 files added (on-disk size: 11416.3 KB)
+0012.174 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 2297 files batched, 501 (2004) added so far); re-opening (prior size: 11416.3 KB)
+0012.578 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 2100 files added (on-disk size: 12143.1 KB)
+0012.584 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip.tmp: 2200 files added (on-disk size: 12143.1 KB)
+0013.225 (0) Created plugins zip (0) - 13875.8 KB in 12.9 s (1079.5 KB/s) (SHA1 checksum: 6a4895e18882062b6eedb4d535fee36a22cf19db)
+0013.232 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.654 (0) Total entities for the zip file: 2574 directories, 18245 files (0 skipped as non-modified), 107.8 MB
+0015.666 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.671 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.676 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.680 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.684 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.686 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 18245 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0018.097 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: size is now: 5.70 MB
+0018.112 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 600 files added (on-disk size: 5824.5 KB)
+0018.117 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 700 files added (on-disk size: 5824.5 KB)
+0018.122 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 800 files added (on-disk size: 5824.5 KB)
+0018.126 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 900 files added (on-disk size: 5824.5 KB)
+0018.131 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1000 files added (on-disk size: 5824.5 KB)
+0018.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 18245 files batched, 501 (1002) added so far); re-opening (prior size: 5824.5 KB)
+0019.366 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: size is now: 6.90 MB
+0019.382 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1100 files added (on-disk size: 7090.3 KB)
+0019.385 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/gifsicle/cli.js add_as=themes/surge-starter/node_modules/.bin/gifsicle
+0019.386 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/wiredep/wiredep-cli.js add_as=themes/surge-starter/node_modules/.bin/wiredep
+0019.386 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/wiredep/node_modules/supports-color/cli.js add_as=themes/surge-starter/node_modules/wiredep/node_modules/.bin/supports-color
+0019.386 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/wiredep/node_modules/has-ansi/cli.js add_as=themes/surge-starter/node_modules/wiredep/node_modules/.bin/has-ansi
+0019.387 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1200 files added (on-disk size: 7090.3 KB)
+0019.394 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1300 files added (on-disk size: 7090.3 KB)
+0019.399 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1400 files added (on-disk size: 7090.3 KB)
+0019.403 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/jpegtran-bin/cli.js add_as=themes/surge-starter/node_modules/.bin/jpegtran
+0019.404 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1500 files added (on-disk size: 7090.3 KB)
+0019.406 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 18245 files batched, 501 (1503) added so far); re-opening (prior size: 7090.3 KB)
+0020.995 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: size is now: 8.30 MB
+0021.012 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1600 files added (on-disk size: 8542.7 KB)
+0021.016 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/user-home/cli.js add_as=themes/surge-starter/node_modules/.bin/user-home
+0021.017 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1700 files added (on-disk size: 8542.7 KB)
+0021.022 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1800 files added (on-disk size: 8542.7 KB)
+0021.027 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 1900 files added (on-disk size: 8542.7 KB)
+0021.032 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2000 files added (on-disk size: 8542.7 KB)
+0021.034 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 18245 files batched, 501 (2004) added so far); re-opening (prior size: 8542.7 KB)
+0021.896 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: size is now: 10.30 MB
+0021.913 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2100 files added (on-disk size: 10547.5 KB)
+0021.918 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2200 files added (on-disk size: 10547.5 KB)
+0021.924 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2300 files added (on-disk size: 10547.5 KB)
+0021.930 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2400 files added (on-disk size: 10547.5 KB)
+0021.935 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2500 files added (on-disk size: 10547.5 KB)
+0021.937 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 MB, 18245 files batched, 501 (2505) added so far); re-opening (prior size: 10547.5 KB)
+0022.391 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2600 files added (on-disk size: 10801.7 KB)
+0022.396 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2700 files added (on-disk size: 10801.7 KB)
+0022.402 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/dev-ip/lib/dev-ip.js add_as=themes/surge-starter/node_modules/.bin/dev-ip
+0022.403 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2800 files added (on-disk size: 10801.7 KB)
+0022.405 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/which/bin/which add_as=themes/surge-starter/node_modules/.bin/which
+0022.408 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 2900 files added (on-disk size: 10801.7 KB)
+0022.413 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3000 files added (on-disk size: 10801.7 KB)
+0022.415 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 18245 files batched, 501 (3006) added so far); re-opening (prior size: 10801.7 KB)
+0023.897 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3100 files added (on-disk size: 11525.7 KB)
+0023.902 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/in-publish/in-publish.js add_as=themes/surge-starter/node_modules/.bin/in-publish
+0023.902 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/in-publish/not-in-install.js add_as=themes/surge-starter/node_modules/.bin/not-in-install
+0023.902 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/in-publish/in-install.js add_as=themes/surge-starter/node_modules/.bin/in-install
+0023.902 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/in-publish/not-in-publish.js add_as=themes/surge-starter/node_modules/.bin/not-in-publish
+0023.903 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3200 files added (on-disk size: 11525.7 KB)
+0023.908 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/autoprefixer/node_modules/browserslist/cli.js add_as=themes/surge-starter/node_modules/autoprefixer/node_modules/.bin/browserslist
+0023.908 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3300 files added (on-disk size: 11525.7 KB)
+0023.913 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3400 files added (on-disk size: 11525.7 KB)
+0023.917 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3500 files added (on-disk size: 11525.7 KB)
+0023.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 18245 files batched, 501 (3507) added so far); re-opening (prior size: 11525.7 KB)
+0025.178 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/shelljs/bin/shjs add_as=themes/surge-starter/node_modules/.bin/shjs
+0025.179 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3600 files added (on-disk size: 12920 KB)
+0025.185 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3700 files added (on-disk size: 12920 KB)
+0025.191 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3800 files added (on-disk size: 12920 KB)
+0025.196 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 3900 files added (on-disk size: 12920 KB)
+0025.203 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4000 files added (on-disk size: 12920 KB)
+0025.206 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 18245 files batched, 501 (4008) added so far); re-opening (prior size: 12920 KB)
+0025.793 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4100 files added (on-disk size: 13381.1 KB)
+0025.804 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4200 files added (on-disk size: 13381.1 KB)
+0025.810 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4300 files added (on-disk size: 13381.1 KB)
+0025.816 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4400 files added (on-disk size: 13381.1 KB)
+0025.822 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4500 files added (on-disk size: 13381.1 KB)
+0025.825 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 MB, 18245 files batched, 501 (4509) added so far); re-opening (prior size: 13381.1 KB)
+0026.587 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4600 files added (on-disk size: 13648.4 KB)
+0026.594 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4700 files added (on-disk size: 13648.4 KB)
+0026.599 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4800 files added (on-disk size: 13648.4 KB)
+0026.604 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 4900 files added (on-disk size: 13648.4 KB)
+0026.610 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5000 files added (on-disk size: 13648.4 KB)
+0026.612 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 18245 files batched, 501 (5010) added so far); re-opening (prior size: 13648.4 KB)
+0027.073 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5100 files added (on-disk size: 13959.5 KB)
+0027.079 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5200 files added (on-disk size: 13959.5 KB)
+0027.085 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5300 files added (on-disk size: 13959.5 KB)
+0027.090 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5400 files added (on-disk size: 13959.5 KB)
+0027.097 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5500 files added (on-disk size: 13959.5 KB)
+0027.101 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 18245 files batched, 501 (5511) added so far); re-opening (prior size: 13959.5 KB)
+0027.528 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/nopt/bin/nopt.js add_as=themes/surge-starter/node_modules/.bin/nopt
+0027.529 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/strip-dirs/cli.js add_as=themes/surge-starter/node_modules/.bin/strip-dirs
+0027.529 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5600 files added (on-disk size: 14877.9 KB)
+0027.532 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/rimraf/bin.js add_as=themes/surge-starter/node_modules/.bin/rimraf
+0027.534 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5700 files added (on-disk size: 14877.9 KB)
+0027.538 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/strip-indent/cli.js add_as=themes/surge-starter/node_modules/.bin/strip-indent
+0027.538 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5800 files added (on-disk size: 14877.9 KB)
+0027.543 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 5900 files added (on-disk size: 14877.9 KB)
+0027.548 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6000 files added (on-disk size: 14877.9 KB)
+0027.550 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 18245 files batched, 501 (6012) added so far); re-opening (prior size: 14877.9 KB)
+0030.332 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6100 files added (on-disk size: 15603.4 KB)
+0030.339 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6200 files added (on-disk size: 15603.4 KB)
+0030.346 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6300 files added (on-disk size: 15603.4 KB)
+0030.352 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6400 files added (on-disk size: 15603.4 KB)
+0030.358 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6500 files added (on-disk size: 15603.4 KB)
+0030.361 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 18245 files batched, 501 (6513) added so far); re-opening (prior size: 15603.4 KB)
+0030.955 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6600 files added (on-disk size: 16472.2 KB)
+0030.960 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/sass-graph/bin/sassgraph add_as=themes/surge-starter/node_modules/.bin/sassgraph
+0030.960 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6700 files added (on-disk size: 16472.2 KB)
+0030.965 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6800 files added (on-disk size: 16472.2 KB)
+0030.971 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 6900 files added (on-disk size: 16472.2 KB)
+0030.976 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7000 files added (on-disk size: 16472.2 KB)
+0030.979 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 18245 files batched, 501 (7014) added so far); re-opening (prior size: 16472.2 KB)
+0031.874 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7100 files added (on-disk size: 17058.6 KB)
+0031.880 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7200 files added (on-disk size: 17058.6 KB)
+0031.887 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7300 files added (on-disk size: 17058.6 KB)
+0031.891 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7400 files added (on-disk size: 17058.6 KB)
+0031.896 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7500 files added (on-disk size: 17058.6 KB)
+0031.899 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 MB, 18245 files batched, 501 (7515) added so far); re-opening (prior size: 17058.6 KB)
+0033.172 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7600 files added (on-disk size: 17360.5 KB)
+0033.178 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7700 files added (on-disk size: 17360.5 KB)
+0033.181 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/gulp/bin/gulp.js add_as=themes/surge-starter/node_modules/.bin/gulp
+0033.182 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/gulp/node_modules/semver/bin/semver add_as=themes/surge-starter/node_modules/gulp/node_modules/.bin/semver
+0033.183 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7800 files added (on-disk size: 17360.5 KB)
+0033.189 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 7900 files added (on-disk size: 17360.5 KB)
+0033.195 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8000 files added (on-disk size: 17360.5 KB)
+0033.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 18245 files batched, 501 (8016) added so far); re-opening (prior size: 17360.5 KB)
+0034.667 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8100 files added (on-disk size: 18128 KB)
+0034.672 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/uglify-js/bin/uglifyjs add_as=themes/surge-starter/node_modules/.bin/uglifyjs
+0034.672 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8200 files added (on-disk size: 18128 KB)
+0034.677 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8300 files added (on-disk size: 18128 KB)
+0034.682 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8400 files added (on-disk size: 18128 KB)
+0034.687 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8500 files added (on-disk size: 18128 KB)
+0034.690 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 18245 files batched, 501 (8517) added so far); re-opening (prior size: 18128 KB)
+0035.753 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8600 files added (on-disk size: 19115.6 KB)
+0035.756 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/strip-json-comments/cli.js add_as=themes/surge-starter/node_modules/.bin/strip-json-comments
+0035.757 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/pretty-bytes/cli.js add_as=themes/surge-starter/node_modules/.bin/pretty-bytes
+0035.758 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8700 files added (on-disk size: 19115.6 KB)
+0035.762 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8800 files added (on-disk size: 19115.6 KB)
+0035.767 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 8900 files added (on-disk size: 19115.6 KB)
+0035.772 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9000 files added (on-disk size: 19115.6 KB)
+0035.774 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 18245 files batched, 501 (9018) added so far); re-opening (prior size: 19115.6 KB)
+0037.367 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/dateformat/bin/cli.js add_as=themes/surge-starter/node_modules/.bin/dateformat
+0037.368 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/semver/bin/semver add_as=themes/surge-starter/node_modules/.bin/semver
+0037.369 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9100 files added (on-disk size: 19998 KB)
+0037.371 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/browser-sync/bin/browser-sync.js add_as=themes/surge-starter/node_modules/.bin/browser-sync
+0037.374 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9200 files added (on-disk size: 19998 KB)
+0037.379 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9300 files added (on-disk size: 19998 KB)
+0037.384 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9400 files added (on-disk size: 19998 KB)
+0037.388 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9500 files added (on-disk size: 19998 KB)
+0037.390 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 MB, 18245 files batched, 501 (9519) added so far); re-opening (prior size: 19998 KB)
+0038.122 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9600 files added (on-disk size: 20333.9 KB)
+0038.127 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9700 files added (on-disk size: 20333.9 KB)
+0038.135 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9800 files added (on-disk size: 20333.9 KB)
+0038.141 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 9900 files added (on-disk size: 20333.9 KB)
+0038.147 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10000 files added (on-disk size: 20333.9 KB)
+0038.150 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 18245 files batched, 501 (10020) added so far); re-opening (prior size: 20333.9 KB)
+0038.602 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10100 files added (on-disk size: 20786.2 KB)
+0038.607 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10200 files added (on-disk size: 20786.2 KB)
+0038.610 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/executable/cli.js add_as=themes/surge-starter/node_modules/.bin/executable
+0038.613 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10300 files added (on-disk size: 20786.2 KB)
+0038.618 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10400 files added (on-disk size: 20786.2 KB)
+0038.624 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10500 files added (on-disk size: 20786.2 KB)
+0038.628 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 18245 files batched, 501 (10521) added so far); re-opening (prior size: 20786.2 KB)
+0040.266 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10600 files added (on-disk size: 21648.9 KB)
+0040.271 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10700 files added (on-disk size: 21648.9 KB)
+0040.274 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/node-gyp/bin/node-gyp.js add_as=themes/surge-starter/node_modules/.bin/node-gyp
+0040.275 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10800 files added (on-disk size: 21648.9 KB)
+0040.280 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 10900 files added (on-disk size: 21648.9 KB)
+0040.283 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/jshint/bin/jshint add_as=themes/surge-starter/node_modules/.bin/jshint
+0040.284 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11000 files added (on-disk size: 21648.9 KB)
+0040.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 18245 files batched, 501 (11022) added so far); re-opening (prior size: 21648.9 KB)
+0042.043 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11100 files added (on-disk size: 23681 KB)
+0042.050 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11200 files added (on-disk size: 23681 KB)
+0042.057 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11300 files added (on-disk size: 23681 KB)
+0042.063 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11400 files added (on-disk size: 23681 KB)
+0042.067 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/csso/bin/csso add_as=themes/surge-starter/node_modules/.bin/csso
+0042.070 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11500 files added (on-disk size: 23681 KB)
+0042.073 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 18245 files batched, 501 (11523) added so far); re-opening (prior size: 23681 KB)
+0042.753 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/find-versions/cli.js add_as=themes/surge-starter/node_modules/.bin/find-versions
+0042.754 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/pngcrush-bin/cli.js add_as=themes/surge-starter/node_modules/.bin/pngcrush
+0042.754 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11600 files added (on-disk size: 24308 KB)
+0042.759 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11700 files added (on-disk size: 24308 KB)
+0042.764 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11800 files added (on-disk size: 24308 KB)
+0042.766 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/svgo/bin/svgo add_as=themes/surge-starter/node_modules/.bin/svgo
+0042.768 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 11900 files added (on-disk size: 24308 KB)
+0042.773 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12000 files added (on-disk size: 24308 KB)
+0042.776 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 18245 files batched, 501 (12024) added so far); re-opening (prior size: 24308 KB)
+0044.943 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12100 files added (on-disk size: 25384 KB)
+0044.949 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/errno/cli.js add_as=themes/surge-starter/node_modules/.bin/errno
+0044.949 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12200 files added (on-disk size: 25384 KB)
+0044.954 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12300 files added (on-disk size: 25384 KB)
+0044.959 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/seek-bzip/bin/seek-bunzip add_as=themes/surge-starter/node_modules/.bin/seek-bunzip
+0044.959 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/seek-bzip/bin/seek-bzip-table add_as=themes/surge-starter/node_modules/.bin/seek-table
+0044.959 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12400 files added (on-disk size: 25384 KB)
+0044.965 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12500 files added (on-disk size: 25384 KB)
+0044.968 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 18245 files batched, 501 (12525) added so far); re-opening (prior size: 25384 KB)
+0046.183 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12600 files added (on-disk size: 26289.7 KB)
+0046.189 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12700 files added (on-disk size: 26289.7 KB)
+0046.198 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12800 files added (on-disk size: 26289.7 KB)
+0046.204 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 12900 files added (on-disk size: 26289.7 KB)
+0046.213 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13000 files added (on-disk size: 26289.7 KB)
+0046.216 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/weinre/weinre add_as=themes/surge-starter/node_modules/.bin/weinre
+0046.217 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 18245 files batched, 501 (13026) added so far); re-opening (prior size: 26289.7 KB)
+0048.481 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13100 files added (on-disk size: 29252.2 KB)
+0048.483 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/optipng-bin/cli.js add_as=themes/surge-starter/node_modules/.bin/optipng
+0048.485 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/node-uuid/bin/uuid add_as=themes/surge-starter/node_modules/.bin/uuid
+0048.486 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13200 files added (on-disk size: 29252.2 KB)
+0048.488 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/express/bin/express add_as=themes/surge-starter/node_modules/.bin/express
+0048.491 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13300 files added (on-disk size: 29252.2 KB)
+0048.497 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/localtunnel/bin/client add_as=themes/surge-starter/node_modules/.bin/lt
+0048.497 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13400 files added (on-disk size: 29252.2 KB)
+0048.502 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13500 files added (on-disk size: 29252.2 KB)
+0048.505 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 18245 files batched, 501 (13527) added so far); re-opening (prior size: 29252.2 KB)
+0049.570 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13600 files added (on-disk size: 30251.5 KB)
+0049.576 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13700 files added (on-disk size: 30251.5 KB)
+0049.582 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13800 files added (on-disk size: 30251.5 KB)
+0049.590 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 13900 files added (on-disk size: 30251.5 KB)
+0049.599 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14000 files added (on-disk size: 30251.5 KB)
+0049.605 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 18245 files batched, 501 (14028) added so far); re-opening (prior size: 30251.5 KB)
+0051.870 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14100 files added (on-disk size: 31510.1 KB)
+0051.876 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14200 files added (on-disk size: 31510.1 KB)
+0051.890 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14300 files added (on-disk size: 31510.1 KB)
+0051.899 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14400 files added (on-disk size: 31510.1 KB)
+0051.906 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14500 files added (on-disk size: 31510.1 KB)
+0051.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 18245 files batched, 501 (14529) added so far); re-opening (prior size: 31510.1 KB)
+0054.100 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14600 files added (on-disk size: 33830.1 KB)
+0054.107 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/less/node_modules/mime/cli.js add_as=themes/surge-starter/node_modules/less/node_modules/.bin/mime
+0054.109 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14700 files added (on-disk size: 33830.1 KB)
+0054.119 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14800 files added (on-disk size: 33830.1 KB)
+0054.136 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 14900 files added (on-disk size: 33830.1 KB)
+0054.146 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15000 files added (on-disk size: 33830.1 KB)
+0054.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 18245 files batched, 501 (15030) added so far); re-opening (prior size: 33830.1 KB)
+0055.165 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15100 files added (on-disk size: 34777.4 KB)
+0055.174 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15200 files added (on-disk size: 34777.4 KB)
+0055.181 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15300 files added (on-disk size: 34777.4 KB)
+0055.189 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15400 files added (on-disk size: 34777.4 KB)
+0055.199 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15500 files added (on-disk size: 34777.4 KB)
+0055.204 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 MB, 18245 files batched, 501 (15531) added so far); re-opening (prior size: 34777.4 KB)
+0056.229 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15600 files added (on-disk size: 35161.9 KB)
+0056.234 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15700 files added (on-disk size: 35161.9 KB)
+0056.239 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15800 files added (on-disk size: 35161.9 KB)
+0056.244 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 15900 files added (on-disk size: 35161.9 KB)
+0056.252 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16000 files added (on-disk size: 35161.9 KB)
+0056.256 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 18245 files batched, 501 (16032) added so far); re-opening (prior size: 35161.9 KB)
+0058.379 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16100 files added (on-disk size: 35996.2 KB)
+0058.384 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16200 files added (on-disk size: 35996.2 KB)
+0058.389 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16300 files added (on-disk size: 35996.2 KB)
+0058.395 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16400 files added (on-disk size: 35996.2 KB)
+0058.399 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/send/node_modules/mime/cli.js add_as=themes/surge-starter/node_modules/send/node_modules/.bin/mime
+0058.400 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16500 files added (on-disk size: 35996.2 KB)
+0058.404 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 18245 files batched, 501 (16533) added so far); re-opening (prior size: 35996.2 KB)
+0059.915 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16600 files added (on-disk size: 36730.4 KB)
+0059.920 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16700 files added (on-disk size: 36730.4 KB)
+0059.925 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16800 files added (on-disk size: 36730.4 KB)
+0059.929 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 16900 files added (on-disk size: 36730.4 KB)
+0059.933 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17000 files added (on-disk size: 36730.4 KB)
+0059.936 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 18245 files batched, 501 (17034) added so far); re-opening (prior size: 36730.4 KB)
+0060.671 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17100 files added (on-disk size: 37615.4 KB)
+0060.676 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17200 files added (on-disk size: 37615.4 KB)
+0060.680 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17300 files added (on-disk size: 37615.4 KB)
+0060.686 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17400 files added (on-disk size: 37615.4 KB)
+0060.690 (0) File skipped due to unexpected name mismatch (locale: C): file=/var/www/html/MyFinanceBoutique/wp-content/themes/surge-starter/node_modules/bin-version-check/node_modules/semver/bin/semver add_as=themes/surge-starter/node_modules/bin-version-check/node_modules/.bin/semver
+0060.692 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17500 files added (on-disk size: 37615.4 KB)
+0060.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 18245 files batched, 501 (17535) added so far); re-opening (prior size: 37615.4 KB)
+0061.371 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17600 files added (on-disk size: 38033.1 KB)
+0061.376 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17700 files added (on-disk size: 38033.1 KB)
+0061.382 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17800 files added (on-disk size: 38033.1 KB)
+0061.387 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 17900 files added (on-disk size: 38033.1 KB)
+0061.393 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 18000 files added (on-disk size: 38033.1 KB)
+0061.396 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 18245 files batched, 501 (18036) added so far); re-opening (prior size: 38033.1 KB)
+0062.515 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 18100 files added (on-disk size: 39321 KB)
+0062.522 (0) Zip: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip.tmp: 18200 files added (on-disk size: 39321 KB)
+0063.540 (0) Created themes zip (0) - 39624.9 KB in 50.3 s (787.7 KB/s) (SHA1 checksum: f76a9fbf39314112f8c0eb3a32e1a19f18cdefc2)
+0063.547 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0063.550 (0) Looking for candidates to back up in: /var/www/html/MyFinanceBoutique/wp-content/uploads
+0063.553 (0) finding files: 2016: adding to list (1)
+0063.556 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0063.562 (0) Total entities for the zip file: 2 directories, 5 files (0 skipped as non-modified), 3.7 MB
+0064.417 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-uploads.zip.tmp: size is now: 3.70 MB
+0064.460 (0) Created uploads zip (0) - 3828.4 KB in 0.9 s (4250 KB/s) (SHA1 checksum: 6dd539b351af3b4773cd995fd8a706028c7b1561)
+0064.466 (0) Beginning backup of other directories found in the content directory (index: 0)
+0064.469 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0064.471 (0) Looking for candidates to back up in: /var/www/html/MyFinanceBoutique/wp-content
+0064.474 (0) finding files: updraft: skipping: this is the updraft directory
+0064.476 (0) finding files: themes: skipping: this is the themes directory
+0064.479 (0) finding files: plugins: skipping: this is the plugins directory
+0064.481 (0) finding files: uploads: skipping: this is the uploads directory
+0064.484 (0) finding files: index.php: adding to list (1)
+0064.486 (0) finding files: upgrade: skipping: excluded by options
+0064.493 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0064.522 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-others.zip.tmp: size is now: 0.00 MB
+0064.530 (0) Created others zip (0) - 0.2 KB in 0 s (4.6 KB/s) (SHA1 checksum: a7e5e5f5fe53c26934f94449b279eeaf4beb6617)
+0064.540 (0) Saving backup status to database (elements: 8)
+0064.547 (0) Beginning creation of database dump (WordPress DB)
+0064.552 (0) Testing: /usr/bin/mysqldump
+0064.714 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0064.750 (0) Table 8l82GX_options: Total expected rows (approximate): 112
+0064.792 (0) Table 8l82GX_options: Total rows added: 250 in 0.04 seconds
+0064.795 (0) Table 8l82GX_options: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_options.table.gz - 104 KB)
+0064.804 (0) Table 8l82GX_users: Total expected rows (approximate): 1
+0064.808 (0) Table 8l82GX_users: Total rows added: 1 in 0.00 seconds
+0064.812 (0) Table 8l82GX_users: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_users.table.gz - 0.6 KB)
+0064.820 (0) Table 8l82GX_usermeta: Total expected rows (approximate): 32
+0064.826 (0) Table 8l82GX_usermeta: Total rows added: 32 in 0.00 seconds
+0064.828 (0) Table 8l82GX_usermeta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_usermeta.table.gz - 1.5 KB)
+0064.836 (0) Table 8l82GX_commentmeta: Total expected rows (approximate): 0
+0064.839 (0) Table 8l82GX_commentmeta: Total rows added: 0 in 0.00 seconds
+0064.842 (0) Table 8l82GX_commentmeta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_commentmeta.table.gz - 0.4 KB)
+0064.850 (0) Table 8l82GX_comments: Total expected rows (approximate): 1
+0064.854 (0) Table 8l82GX_comments: Total rows added: 1 in 0.00 seconds
+0064.857 (0) Table 8l82GX_comments: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_comments.table.gz - 0.7 KB)
+0064.863 (0) Table 8l82GX_links: Total expected rows (approximate): 0
+0064.866 (0) Table 8l82GX_links: Total rows added: 0 in 0.00 seconds
+0064.868 (0) Table 8l82GX_links: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_links.table.gz - 0.4 KB)
+0064.876 (0) Table 8l82GX_postmeta: Total expected rows (approximate): 4483
+0064.954 (0) Table 8l82GX_postmeta: Total rows added: 4433 in 0.08 seconds
+0064.959 (0) Table 8l82GX_postmeta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_postmeta.table.gz - 31.2 KB)
+0064.966 (0) Table 8l82GX_posts: Total expected rows (approximate): 391
+0065.008 (0) Table 8l82GX_posts: Total rows added: 478 in 0.04 seconds
+0065.010 (0) Table 8l82GX_posts: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_posts.table.gz - 18.3 KB)
+0065.020 (0) Table 8l82GX_term_relationships: Total expected rows (approximate): 10
+0065.024 (0) Table 8l82GX_term_relationships: Total rows added: 10 in 0.00 seconds
+0065.027 (0) Table 8l82GX_term_relationships: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_term_relationships.table.gz - 0.4 KB)
+0065.034 (0) Table 8l82GX_term_taxonomy: Total expected rows (approximate): 2
+0065.038 (0) Table 8l82GX_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0065.040 (0) Table 8l82GX_term_taxonomy: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_term_taxonomy.table.gz - 0.4 KB)
+0065.048 (0) Table 8l82GX_termmeta: Total expected rows (approximate): 0
+0065.051 (0) Table 8l82GX_termmeta: Total rows added: 0 in 0.00 seconds
+0065.053 (0) Table 8l82GX_termmeta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_termmeta.table.gz - 0.4 KB)
+0065.060 (0) Table 8l82GX_terms: Total expected rows (approximate): 2
+0065.063 (0) Table 8l82GX_terms: Total rows added: 2 in 0.00 seconds
+0065.065 (0) Table 8l82GX_terms: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_terms.table.gz - 0.4 KB)
+0065.073 (0) Table 8l82GX_rg_form: Total expected rows (approximate): 1
+0065.076 (0) Table 8l82GX_rg_form: Total rows added: 1 in 0.00 seconds
+0065.078 (0) Table 8l82GX_rg_form: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form.table.gz - 0.4 KB)
+0065.086 (0) Table 8l82GX_rg_form_meta: Total expected rows (approximate): 1
+0065.089 (0) Table 8l82GX_rg_form_meta: Total rows added: 1 in 0.00 seconds
+0065.093 (0) Table 8l82GX_rg_form_meta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form_meta.table.gz - 1 KB)
+0065.100 (0) Table 8l82GX_rg_form_view: Total expected rows (approximate): 18
+0065.104 (0) Table 8l82GX_rg_form_view: Total rows added: 18 in 0.00 seconds
+0065.106 (0) Table 8l82GX_rg_form_view: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form_view.table.gz - 0.6 KB)
+0065.114 (0) Table 8l82GX_rg_incomplete_submissions: Total expected rows (approximate): 0
+0065.117 (0) Table 8l82GX_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0065.120 (0) Table 8l82GX_rg_incomplete_submissions: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_incomplete_submissions.table.gz - 0.4 KB)
+0065.127 (0) Table 8l82GX_rg_lead: Total expected rows (approximate): 0
+0065.131 (0) Table 8l82GX_rg_lead: Total rows added: 0 in 0.00 seconds
+0065.133 (0) Table 8l82GX_rg_lead: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead.table.gz - 0.5 KB)
+0065.141 (0) Table 8l82GX_rg_lead_detail: Total expected rows (approximate): 0
+0065.145 (0) Table 8l82GX_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0065.147 (0) Table 8l82GX_rg_lead_detail: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_detail.table.gz - 0.4 KB)
+0065.154 (0) Table 8l82GX_rg_lead_detail_long: Total expected rows (approximate): 0
+0065.157 (0) Table 8l82GX_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0065.159 (0) Table 8l82GX_rg_lead_detail_long: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_detail_long.table.gz - 0.3 KB)
+0065.166 (0) Table 8l82GX_rg_lead_meta: Total expected rows (approximate): 0
+0065.169 (0) Table 8l82GX_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0065.171 (0) Table 8l82GX_rg_lead_meta: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_meta.table.gz - 0.4 KB)
+0065.178 (0) Table 8l82GX_rg_lead_notes: Total expected rows (approximate): 0
+0065.182 (0) Table 8l82GX_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0065.184 (0) Table 8l82GX_rg_lead_notes: finishing file (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_notes.table.gz - 0.4 KB)
+0065.190 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_options.table.gz (1/21): adding to final database dump
+0065.221 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_users.table.gz (2/21): adding to final database dump
+0065.224 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_usermeta.table.gz (3/21): adding to final database dump
+0065.227 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_commentmeta.table.gz (4/21): adding to final database dump
+0065.229 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_comments.table.gz (5/21): adding to final database dump
+0065.232 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_links.table.gz (6/21): adding to final database dump
+0065.234 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_postmeta.table.gz (7/21): adding to final database dump
+0065.270 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_posts.table.gz (8/21): adding to final database dump
+0065.281 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_term_relationships.table.gz (9/21): adding to final database dump
+0065.283 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_term_taxonomy.table.gz (10/21): adding to final database dump
+0065.285 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_termmeta.table.gz (11/21): adding to final database dump
+0065.287 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_terms.table.gz (12/21): adding to final database dump
+0065.290 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form.table.gz (13/21): adding to final database dump
+0065.292 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form_meta.table.gz (14/21): adding to final database dump
+0065.295 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_form_view.table.gz (15/21): adding to final database dump
+0065.297 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_incomplete_submissions.table.gz (16/21): adding to final database dump
+0065.299 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead.table.gz (17/21): adding to final database dump
+0065.301 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_detail.table.gz (18/21): adding to final database dump
+0065.303 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_detail_long.table.gz (19/21): adding to final database dump
+0065.305 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_meta.table.gz (20/21): adding to final database dump
+0065.307 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db-table-8l82GX_rg_lead_notes.table.gz (21/21): adding to final database dump
+0065.309 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db.gz: finished writing out complete database file (128 KB)
+0065.319 (0) Total database tables backed up: 21 (backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db.gz, size: 161874, checksum (SHA1): 24f4f3de8a393c2ef9383714573a77ad924ecee8)
+0065.329 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0065.331 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0065.333 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0065.335 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0065.337 (0) backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0065.339 (0) Saving backup history. Total backup size: 56.1 MB
+0065.345 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0065.352 (0) Cloud backup selection (1/1): none (last)
+0065.354 (0) No remote despatch: user chose no remote backup service
+0065.359 (0) Recording as successfully uploaded: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-plugins.zip (9a88b734dc8685de93aeb13fbf8fce97)
+0065.369 (0) Recording as successfully uploaded: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-themes.zip (234bc5bc98dfb13ee755f5f787bb26eb)
+0065.378 (0) Recording as successfully uploaded: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-uploads.zip (41b102ab0e7953498a322576f019a97c)
+0065.387 (0) Recording as successfully uploaded: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-others.zip (54fa282f8d3452ae38b58bcac27ab80a)
+0065.398 (0) Recording as successfully uploaded: backup_2016-06-10-0534_My_Finance_Boutique_e7ba7615a89e-db.gz (0b9ccef8e78eef1fb9d370dc8ad9ffe1)
+0065.409 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0065.413 (0) Number of backup sets in history: 1; groups (db): 1
+0065.416 (0) Examining (for databases) backup set with group_id=0, nonce=e7ba7615a89e, datestamp=1465536874 (Jun 10 2016 05:34:34)
+0065.419 (0) This backup set is the backup set just made, so will not be deleted.
+0065.422 (0) Number of backup sets in history: 1; groups (files): 1
+0065.424 (0) Examining (for files) backup set with nonce=e7ba7615a89e, datestamp=1465536874 (Jun 10 2016 05:34:34)
+0065.426 (0) This backup set is the backup set just made, so will not be deleted.
+0065.428 (0) This backup set is the backup set just made, so will not be deleted.
+0065.428 (0) This backup set is the backup set just made, so will not be deleted.
+0065.428 (0) This backup set is the backup set just made, so will not be deleted.
+0065.428 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.430 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0065.436 (0) Resume backup (e7ba7615a89e, 0): finish run
+0065.441 (0) Decremented the semaphore (fd) by 1
+0065.445 (0) Semaphore (fd) unlocked
+0065.447 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0065.455 (0) No email will/can be sent - the user has not configured an email address.
+0065.457 (0) The backup apparently succeeded and is now complete
