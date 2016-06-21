@@ -39,82 +39,82 @@
 }
 
 @font-face {
-	font-family: 'Klavika Basic';
-	src: url('../fonts/KlavikaBasic-Light.eot');
-	src: url('../fonts/KlavikaBasic-Light.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-Light.woff') format('woff'),
-		url('../fonts/KlavikaBasic-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-BoldItalic.eot');
+	src: url('Ubuntu-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-BoldItalic.woff') format('woff'),
+		url('Ubuntu-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Klavika Basic';
-	src: url('../fonts/KlavikaBasic-Medium.eot');
-	src: url('../fonts/KlavikaBasic-Medium.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-Medium.woff') format('woff'),
-		url('../fonts/KlavikaBasic-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Klavika Basic Bold';
-	src: url('../fonts/KlavikaBasic-BoldItalic.eot');
-	src: url('../fonts/KlavikaBasic-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-BoldItalic.woff') format('woff'),
-		url('../fonts/KlavikaBasic-BoldItalic.ttf') format('truetype');
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-Bold.eot');
+	src: url('Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-Bold.woff') format('woff'),
+		url('Ubuntu-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Klavika Basic Medium';
-	src: url('../fonts/KlavikaBasic-MediumItalic.eot');
-	src: url('../fonts/KlavikaBasic-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-MediumItalic.woff') format('woff'),
-		url('../fonts/KlavikaBasic-MediumItalic.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Klavika Basic';
-	src: url('../fonts/KlavikaBasic-Bold.eot');
-	src: url('../fonts/KlavikaBasic-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-Bold.woff') format('woff'),
-		url('../fonts/KlavikaBasic-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Klavika Basic Regular';
-	src: url('../fonts/KlavikaBasic-RegularItalic.eot');
-	src: url('../fonts/KlavikaBasic-RegularItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-RegularItalic.woff') format('woff'),
-		url('../fonts/KlavikaBasic-RegularItalic.ttf') format('truetype');
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-Italic.eot');
+	src: url('Ubuntu-Italic.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-Italic.woff') format('woff'),
+		url('Ubuntu-Italic.ttf') format('truetype');
 	font-weight: normal;
-	font-style: normal;
+	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Klavika Basic Light';
-	src: url('../fonts/KlavikaBasic-Light.eot');
-	src: url('../fonts/KlavikaBasic-Light.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-Light.woff') format('woff'),
-		url('../fonts/KlavikaBasic-Light.ttf') format('truetype');
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-LightItalic.eot');
+	src: url('Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-LightItalic.woff') format('woff'),
+		url('Ubuntu-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-MediumItalic.eot');
+	src: url('Ubuntu-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-MediumItalic.woff') format('woff'),
+		url('Ubuntu-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-Light.eot');
+	src: url('Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-Light.woff') format('woff'),
+		url('Ubuntu-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Klavika Basic';
-	src: url('../fonts/KlavikaBasic-Regular.eot');
-	src: url('../fonts/KlavikaBasic-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/KlavikaBasic-Regular.woff') format('woff'),
-		url('../fonts/KlavikaBasic-Regular.ttf') format('truetype');
+	font-family: 'Ubuntu';
+	src: url('Ubuntu.eot');
+	src: url('Ubuntu.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu.woff') format('woff'),
+		url('Ubuntu.ttf') format('truetype');
 	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-Medium.eot');
+	src: url('Ubuntu-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Ubuntu-Medium.woff') format('woff'),
+		url('Ubuntu-Medium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -143,6 +143,7 @@
 .surge-logo-stacked-block:before{content:'\0044';}
 .surge-logo-long-block:before{content:'\0045';}
 
+/* Generated by Glyphter (http://www.glyphter.com) on  Mon Jun 20 2016*/
 @font-face {
     font-family: 'Glyphter';
     src: url('../fonts/Glyphter.eot');
@@ -165,5 +166,8 @@
 }
 .icon-arrow-left:before{content:'\0041';}
 .icon-arrow-right:before{content:'\0042';}
-.icon-icon-phone:before{content:'\0043';}
+.icon-icon-PHONE:before{content:'\0043';}
 .icon-icon-social-FB:before{content:'\0044';}
+.icon-google-plus:before{content:'\0045';}
+.icon-linkedin:before{content:'\0046';}
+.icon-twitter-black-shape:before{content:'\0047';}

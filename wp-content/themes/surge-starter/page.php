@@ -1,6 +1,6 @@
 <?php
 get_component([
-						'template' => 'molecule/jumbotron',
+						'template' => 'organism/page-heading',
 						'vars' => [
 							'id' => get_field('id'),
 							'slides' => get_field('slides'),

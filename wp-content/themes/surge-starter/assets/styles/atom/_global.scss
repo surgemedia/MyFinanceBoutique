@@ -77,8 +77,8 @@ p { margin-bottom:2em;}
 	border:2px solid $grey;
 }
 
-.padding-0-4 {
-	padding:0em 5.5em;
+.padding-0-5 {
+	padding:5.5em;
 }
 
 section {
@@ -88,7 +88,7 @@ section {
 .rounded {
 	border-radius:100%;
 	height:auto;
-	min-height: 470px;
+	// min-height: 470px;
     width: 90%;
     display:inline;
 }

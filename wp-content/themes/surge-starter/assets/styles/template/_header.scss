@@ -2,6 +2,7 @@
 	position: absolute;
 	z-index:999;
 	width:100%;
+	background-color:#fff;
 //line up logo
 .collapse.navbar-collapse {
 	    margin-right: -15px;
@@ -9,12 +10,12 @@
 }
 #logo {
 	margin-top:2em;
-	margin-bottom:3em;
+	// margin-bottom:3em;
 }
 
 .navbar-nav {
 	width:100%;
-	background:$blue;
+	//background:$blue;
 	padding-right:4em;
 	padding-left:4em;
 	text-align:center;
@@ -23,9 +24,22 @@
 		display: inline-block;
 		float:none !important;
 		a {
-			color:#fff;
 			@extend .p6;
 			font-size:1.7em;
+			color:$black;
+			font-weight: bold;
+    	text-transform: uppercase;
+		}
+	}
+}
+.phone {
+	font-family:$secondary-font;
+    font-size: 5em;
+    font-weight: 300;
+	a {
+		color:$black;
+		&:hover {
+			text-decoration: none;
 		}
 	}
 }
